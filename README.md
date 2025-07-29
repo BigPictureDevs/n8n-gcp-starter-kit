@@ -29,11 +29,13 @@ Before you begin, you must have the following:
 
 2.  A registered domain name.
 
-3.  The following APIs enabled in your GCP project: `Compute Engine API`, `Cloud DNS API`.
+3. **GCP Cloud DNS configured**: This script requires that you have a Managed Public Zone set up in GCP Cloud DNS for your domain. **The automation will fail if this is not configured.**
 
-4.  A GCP Service Account with `Compute Admin` and `DNS Administrator` roles.
+4.  The following APIs enabled in your GCP project: `Compute Engine API`, `Cloud DNS API`.
 
-5.  [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli "null") and the [gcloud CLI](https://cloud.google.com/sdk/docs/install "null") installed locally.
+5.  A GCP Service Account with `Compute Admin` and `DNS Administrator` roles.
+
+6.  [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli "null") and the [gcloud CLI](https://cloud.google.com/sdk/docs/install "null") installed locally.
 
 How to Use
 ----------
