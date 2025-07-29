@@ -85,6 +85,6 @@ The paid starter kit includes:
 
 -   **Step-by-Step Upgrade Path:** Clear instructions on how to safely update your n8n instance to new versions without losing data.
 
--   **Automated Backups:** A fully automated backup system for your database and files, complete with a restore guide.
+-   (Will be added soon) **Automated Backups:** A fully automated backup system for your database and files, complete with a restore guide.
 
 -   **Email Support:** Direct access to get help if you run into any issues.
