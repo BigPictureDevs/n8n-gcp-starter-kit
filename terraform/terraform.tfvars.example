@@ -1,0 +1,15 @@
+# Fill in your own values below.
+
+# GCP Settings
+gcp_project_id       = "your-gcp-project-id"
+gcp_credentials_file = "path/to/your/downloaded-key.json" # We recommend  moving this file to a secure location. However, for simplicity, you can keep it in the same directory as this file.
+
+# Domain & SSL Settings
+managed_zone_name    = "your-managed-zone-name" # e.g., "yourdomain-com"
+domain_name          = "yourdomain.com"
+n8n_subdomain        = "n8n"
+letsencrypt_email    = "you@yourdomain.com"
+
+# (Optional) n8n Server Settings
+# region               = "us-central1"
+# machine_type         = "e2-medium"
