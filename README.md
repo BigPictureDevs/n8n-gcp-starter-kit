@@ -1,4 +1,4 @@
-n8n GCP Terraform Starter Kit (Open-Source Version)
+n8n GCP Terraform Starter Kit
 ===================================================
 
 This repository contains Terraform code to deploy a production-ready, self-hosted n8n instance on Google Cloud Platform (GCP).
